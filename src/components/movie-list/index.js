@@ -21,16 +21,15 @@
 
 // export default MovieList
 
-
 // The MovieList component contains the core functionality for fetching and displaying movies.
 function MovieList() {
   // State to hold the year input by the user.
-  const [year, setYear] = useState('');
+  const [year, setYear] = useState("");
   // State to store the list of movies fetched from the API.
   const [movieData, setMovieData] = useState(null);
 
   // API endpoint URL.
-  const API_URL = 'https://jsonmock.hackerrank.com/api/movies';
+  const API_URL = "https://jsonmock.hackerrank.com/api/movies";
 
   /**
    * Handles the search button click.
@@ -39,9 +38,9 @@ function MovieList() {
   const handleSearch = async () => {
     // Prevent API call if the input is empty.
     if (!year) {
-        return;
+      return;
     }
-    
+
     try {
       // Construct the full URL with the year query parameter.
       const response = await fetch(`${API_URL}?Year=${year}`);
@@ -68,11 +67,7 @@ function MovieList() {
           onChange={(e) => setYear(e.target.value)}
         />
         {/* Search button */}
-        <button
-          className=""
-          data-testid="submit-button"
-          onClick={handleSearch}
-        >
+        <button className="" data-testid="submit-button" onClick={handleSearch}>
           Search
         </button>
       </section>
@@ -81,7 +76,9 @@ function MovieList() {
       {movieData && movieData.length > 0 && (
         <ul className="mt-50 styled" data-testid="movieList">
           {movieData.map((movie, index) => (
-            <li className="slide-up-fade-in py-10" key={`${movie.imdbID}-${index}`}>
+            <li
+              className="slide-up-fade-in py-10"
+              key={`${movie.imdbID}-${index}`}>
               {movie.Title}
             </li>
           ))}
@@ -98,4 +95,6 @@ function MovieList() {
   );
 }
 
-export default App;
+// export default App;
+
+export default MovieList;
