@@ -1,3 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="0" failures="0" time="2.298">
+<testsuites name="jest tests" tests="4" failures="4" time="2.702">
+  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2025-07-23T05:27:55" time="1.945" tests="4">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.047">
+      <failure>ReferenceError: useState is not defined
+    at MovieList (/projects/challenge/src/components/movie-list/index.js:27:27)
+    at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at innerInvokeEventListeners (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:315:27)
+    at invokeEventListeners (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:266:3)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:212:11)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:144:23)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:15:40)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and no results found" name=" search is made on by clicking on search button and no results found" time="0.006">
+      <failure>ReferenceError: useState is not defined
+    at MovieList (/projects/challenge/src/components/movie-list/index.js:27:27)
+    at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at innerInvokeEventListeners (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:315:27)
+    at invokeEventListeners (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:266:3)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:212:11)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:144:23)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:23:40)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and result found - test 1" name=" search is made on by clicking on search button and result found - test 1" time="0.004">
+      <failure>ReferenceError: useState is not defined
+    at MovieList (/projects/challenge/src/components/movie-list/index.js:27:27)
+    at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at innerInvokeEventListeners (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:315:27)
+    at invokeEventListeners (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:266:3)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:212:11)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:144:23)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:43:40)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and result found - test 2" name=" search is made on by clicking on search button and result found - test 2" time="0.004">
+      <failure>ReferenceError: useState is not defined
+    at MovieList (/projects/challenge/src/components/movie-list/index.js:27:27)
+    at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at innerInvokeEventListeners (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:315:27)
+    at invokeEventListeners (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:266:3)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:212:11)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:144:23)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:64:39)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+  </testsuite>
 </testsuites>
