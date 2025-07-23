@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="4" failures="4" time="2.702">
-  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2025-07-23T05:27:55" time="1.945" tests="4">
-    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.047">
+<testsuites name="jest tests" tests="4" failures="4" time="2.621">
+  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2025-07-23T05:30:34" time="1.887" tests="4">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.055">
       <failure>ReferenceError: useState is not defined
-    at MovieList (/projects/challenge/src/components/movie-list/index.js:27:27)
+    at MovieList (/projects/challenge/src/components/movie-list/index.js:101:27)
     at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
     at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
     at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
@@ -39,7 +39,7 @@
     </testcase>
     <testcase classname=" search is made on by clicking on search button and no results found" name=" search is made on by clicking on search button and no results found" time="0.006">
       <failure>ReferenceError: useState is not defined
-    at MovieList (/projects/challenge/src/components/movie-list/index.js:27:27)
+    at MovieList (/projects/challenge/src/components/movie-list/index.js:101:27)
     at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
     at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
     at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
@@ -75,7 +75,7 @@
     </testcase>
     <testcase classname=" search is made on by clicking on search button and result found - test 1" name=" search is made on by clicking on search button and result found - test 1" time="0.004">
       <failure>ReferenceError: useState is not defined
-    at MovieList (/projects/challenge/src/components/movie-list/index.js:27:27)
+    at MovieList (/projects/challenge/src/components/movie-list/index.js:101:27)
     at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
     at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
     at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
@@ -111,7 +111,7 @@
     </testcase>
     <testcase classname=" search is made on by clicking on search button and result found - test 2" name=" search is made on by clicking on search button and result found - test 2" time="0.004">
       <failure>ReferenceError: useState is not defined
-    at MovieList (/projects/challenge/src/components/movie-list/index.js:27:27)
+    at MovieList (/projects/challenge/src/components/movie-list/index.js:101:27)
     at renderWithHooks (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
     at mountIndeterminateComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
     at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
